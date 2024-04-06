@@ -11,11 +11,14 @@ function isPalindrome(word) {
 
 /*
   Add your pseudocode here:
-  1.split word characters into an array
-  2. Access array elements using for loop
-  3. Check if equal from between first and last character iteratively till last and first character
-  4. return false and exit from function if any mismatch found
-  5. return true if the loop fully runs
+  Split word characters into an array
+
+  Access array elements using FOR loop
+
+  If equal from between first and last character iteratively till last and first character,
+    return false and exit from function if any mismatch found
+
+  Return true if the loop fully runs
 */
 
 /*
