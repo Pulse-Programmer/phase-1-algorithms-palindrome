@@ -1,7 +1,7 @@
 function isPalindrome(word) {
   const charArray = word.split(""); //converts string to array of characters
 
-  for (let i = 0; i < charArray.length; i++) {
+  for (let i = 0; i < charArray.length / 2; i++) {
     if (charArray[i] !== charArray[charArray.length - 1 - i]) {
       return false;
     }
